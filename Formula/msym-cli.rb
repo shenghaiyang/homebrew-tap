@@ -1,25 +1,25 @@
 class MsymCli < Formula
   desc "A CLI tool for downloading Material Symbols Compose code from Google Fonts."
   homepage "https://github.com/shenghaiyang/msym"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shenghaiyang/msym/releases/download/v0.2.0/msym-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "407fdbd0c21c2fcc6024df8ca0868528e3c006fdbb7adda711529013a75596ba"
+      url "https://github.com/shenghaiyang/msym/releases/download/v0.3.0/msym-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "d19b3199628ff54afbad122792f6e43b05e830ca2cbdcf0ec4240c2729566580"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shenghaiyang/msym/releases/download/v0.2.0/msym-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "242f5a4ed8ec6ad0e138d48fb5493b5821e84c757213352b91e47b4f8b9dabb0"
+      url "https://github.com/shenghaiyang/msym/releases/download/v0.3.0/msym-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "48a92c730ddb2bbb5b7ea581407e72c64d6130aaeaea64a613da160a5ddb0582"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/shenghaiyang/msym/releases/download/v0.2.0/msym-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6db4584f0924bfa50717dbed1b9ba8130d3b0174b4d115d42cfd60a2347b056c"
+      url "https://github.com/shenghaiyang/msym/releases/download/v0.3.0/msym-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d215d145e89842ec3b1acd13574cd3788891919d54839cc2333dac2512220601"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shenghaiyang/msym/releases/download/v0.2.0/msym-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c7683782a237f74182328dcbce455009966db96038cc03fdbefe1a796700591f"
+      url "https://github.com/shenghaiyang/msym/releases/download/v0.3.0/msym-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c32320314022abc76b221a91ed3f72ec0e35850bc622908c260cd3377254c707"
     end
   end
   license "Apache-2.0"
