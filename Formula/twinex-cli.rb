@@ -1,25 +1,25 @@
 class TwinexCli < Formula
-  desc "Rust localization code generator compatible with the Twine file format."
+  desc "A localization code generator compatible with the Twine file format"
   homepage "https://github.com/shenghaiyang/twinex"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shenghaiyang/twinex/releases/download/v0.2.0/twinex-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "03b8c7d3d3db6fe4f6833f5f7f85653b54e726d563040f8326c14881412fde5a"
+      url "https://github.com/shenghaiyang/twinex/releases/download/v0.3.0/twinex-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "0f583fcb24bb242ba75aeeeb4bc01bf32e3d24613f5c7c404521f408c800e311"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shenghaiyang/twinex/releases/download/v0.2.0/twinex-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "d826881a4b6760047a9b922af3fbabb259324e287311485bb543317bd30a3bf5"
+      url "https://github.com/shenghaiyang/twinex/releases/download/v0.3.0/twinex-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "0243b6e96dd3948136d0249aee4ba481e57c9b1363a4817f771a3f997b8099ee"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/shenghaiyang/twinex/releases/download/v0.2.0/twinex-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "06570d71df1747df1c86495cc2bf7db1232c01de5445549fb298063187a67ab6"
+      url "https://github.com/shenghaiyang/twinex/releases/download/v0.3.0/twinex-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f6fc4edc2632b5d1bb0d76c20788bc8565d89b4f5ba95ca82bfa4fcaee8519fd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shenghaiyang/twinex/releases/download/v0.2.0/twinex-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "54ac5b9bf8f821746b9ab05d0333b55f7f2f30d11a4956708705ae2511b81ec2"
+      url "https://github.com/shenghaiyang/twinex/releases/download/v0.3.0/twinex-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5adf0df46a7c03300a48c38dc4c47be407982f896a1aebbf4122824c36329c3c"
     end
   end
   license "Apache-2.0"
